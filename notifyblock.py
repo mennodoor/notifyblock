@@ -165,9 +165,10 @@ def toggle_mute():
     new_status = "False" if current_status else "True"
     with open(MUTE_FILE, 'w') as f:
         f.write(new_status)
-    # also print an appropriate icon, for the i3blocks item
+    # also print an appropriate icon, for the i3blocks item and delete the last displayed notification
     if new_status == "True":
         print("🔕")
+        write_last_display({}, 0)
     else:
         print("🔔")
 

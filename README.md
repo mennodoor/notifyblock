@@ -2,6 +2,8 @@
 
 Its main feature is the ability to mute it and get the missed notifications displayed when unmuting it. Kind of like the focus mode on phones. Also it integrates well in the i3blocks bar.
 
+![example notifyblock in i3blocks bar](https://github.com/mennodoor/notifyblock/blob/main/example.gif?raw=true)
+
 ## Install
 
 Normal location for i3 / i3blocks scripts is here:
