@@ -1,8 +1,6 @@
 # Simple notification daemon for i3blocks
 
-## Overview
-
-This script is a simple notification daemon intended to be used in combination with i3blocks. Its main feature is the ability to mute it and get the missed notifications displayed when unmuting it. Kind of like the focus mode on phones. Also it integrates well in the i3blocks bar.
+Its main feature is the ability to mute it and get the missed notifications displayed when unmuting it. Kind of like the focus mode on phones. Also it integrates well in the i3blocks bar.
 
 ## Install
 
